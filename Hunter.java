@@ -1,7 +1,7 @@
 // Team RNM: Richard Wang, Nalanda Sharadjaya, Manish Saha
 // APCS1 pd9
-// HW30 -- Ye Olde Role Playing Game, Expanded
-// 2015-11-13
+// HW31 -- Ye Olde Role Playing Game, Unchained
+// 2015-11-16
 
 public class Hunter extends Character {
     public Hunter() {
