@@ -54,4 +54,9 @@ public class Mage extends Character {
 	super.attack = 0.3;
     }
 
+    public static String about() {
+	String mage     = "Mage: When he/she requires help, he/she turns to the wise, learned mage for advice.";
+	return mage;
+    }
+
 }

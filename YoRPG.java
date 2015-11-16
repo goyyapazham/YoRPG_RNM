@@ -1,7 +1,7 @@
 /*=============================================
   class YoRPG -- Driver file for Ye Olde Role Playing Game.
   Simulates monster encounters of a wandering adventurer.
-  Required classes: Warrior, Monster
+  Required classes: Warrior, Mage, Rogue, Hunter, Guardian,  Monster
   =============================================*/
 
 import java.io.*;
@@ -14,7 +14,7 @@ public class YoRPG {
     //change this constant to set number of encounters in a game
     public final static int MAX_ENCOUNTERS = 5;
 
-    //each round, a Warrior and a Monster will be instantiated...
+    //each round, a Character and a Monster will be instantiated...
     private Character pat;   //Is it man or woman?
     private Monster smaug; //Friendly generic monster name?
 

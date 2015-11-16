@@ -54,4 +54,9 @@ public class Guardian extends Character {
 	super.defense = 80;
 	super.attack = 0.2;
     }
+
+    public static String about() {
+	String guardian = "Guardian: Alas, the bravest of them all, willing to put their lives before those of their comrades.";
+	return guardian;
+    }
 }

@@ -51,4 +51,9 @@ public class Warrior extends Character {
         super.normalize();
     }
 
+    public static String about() {
+	String warrior  = "Warrior: A warrior fights the forces of evil for the good of his/her kingdom.";
+	return warrior;
+    }
+
 }

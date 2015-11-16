@@ -34,4 +34,9 @@ public class Monster extends Character {
         return super.attack(guy);
     }
 
+    public static String about() {
+	String monster  = "Monster: Among the evils you must fight are monsters, who seek to destroy the kingdom's harmony.";
+	return monster;
+    }
+
 }

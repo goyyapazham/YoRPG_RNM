@@ -53,4 +53,9 @@ public class Hunter extends Character {
 	super.defense = 35;
 	super.attack = 0.5;
     }
+
+    public static String about() {
+	String hunter   = "Hunter: With bow and quiver, they elegantly strike those who cross their path.";
+	return hunter;
+    }
 }

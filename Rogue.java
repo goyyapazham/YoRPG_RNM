@@ -53,4 +53,9 @@ public class Rogue extends Character {
 	super.defense = 40;
 	super.attack = 0.5;
     }
+
+    public static String about() {
+	String rogue    = "Rogue: The ruffian of them all. Strong power and will decide their fates.";
+	return rogue;
+    }
 }
