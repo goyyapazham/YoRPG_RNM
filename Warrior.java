@@ -44,7 +44,6 @@ public class Warrior extends Character {
     }
 
     public void specialize() {
-<<<<<<< HEAD
         super.defense = 20;
 	super.attack = .75;
     }
@@ -52,18 +51,9 @@ public class Warrior extends Character {
     public void normalize() { // resets all attributes
         super.defense = 40;
 	super.attack = .4;
-=======
-    	defense = 20;
-	attack = .75;
     }
 
-    public void normalize() { // resets all attributes
-	defense = 40;
-	attack = .4;
->>>>>>> origin/master
-    }
-
-    public  String about() {
+    public String about() {
         return "Warrior: A warrior fights the forces of evil for the good of his/her kingdom.";
     }
 
