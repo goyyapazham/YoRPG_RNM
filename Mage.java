@@ -43,13 +43,11 @@ public class Mage extends Character {
     }
 
     public void specialize() {
-	super.specialize();
 	super.defense = 15;
 	super.attack = 0.6;
     }
 
     public void normalize() { // resets all attributes
-	super.normalize();
 	super.defense = 30;
 	super.attack = 0.3;
     }

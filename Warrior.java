@@ -44,11 +44,13 @@ public class Warrior extends Character {
     }
 
     public void specialize() {
-	super.specialize();
+    	defense = 20;
+	attack = .75;
     }
 
     public void normalize() { // resets all attributes
-        super.normalize();
+	defense = 40;
+	attack = .4;
     }
 
     public static String about() {
