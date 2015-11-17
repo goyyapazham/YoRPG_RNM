@@ -30,7 +30,7 @@ public class Monster extends Character {
         super.lowerHP(i);
     }
 
-    public int attack(Warrior guy) {
+    public int attack(Character guy) {
         return super.attack(guy);
     }
 
