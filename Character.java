@@ -13,11 +13,11 @@ public abstract class Character {
 	return HP > 0;
     }
 
+    // accessors (name,defense)
+    
     public String getName() {
 	return name;
     }
-
-    // accessors (defense)
     
     public int getDefense() {
 	return defense;
