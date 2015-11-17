@@ -38,7 +38,7 @@ public class Character {
 	return damage;
     }
 
-    public void normalize() {
+    public void normalize() { //default
 	defense = 20;
 	attack = .75;
     }
