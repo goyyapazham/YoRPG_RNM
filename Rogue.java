@@ -43,19 +43,16 @@ public class Rogue extends Character {
     }
 
     public void specialize() {
-	super.specialize();
 	super.defense = 20;
 	super.attack = 0.7;
     }
 
     public void normalize() { // resets all attributes
-	super.normalize();
 	super.defense = 40;
 	super.attack = 0.5;
     }
 
-    public static String about() {
-	String rogue    = "Rogue: The ruffian of them all. Strong power and will decide their fates.";
-	return rogue;
+    public String about() {
+        return "Rogue: The ruffian of them all. Strong power and will decide their fates.";
     }
 }

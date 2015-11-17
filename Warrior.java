@@ -44,16 +44,17 @@ public class Warrior extends Character {
     }
 
     public void specialize() {
-	super.specialize();
+        super.defense = 20;
+	super.attack = .75;
     }
 
     public void normalize() { // resets all attributes
-        super.normalize();
+        super.defense = 40;
+	super.attack = .4;
     }
 
-    public static String about() {
-	String warrior  = "Warrior: A warrior fights the forces of evil for the good of his/her kingdom.";
-	return warrior;
+    public  String about() {
+        return "Warrior: A warrior fights the forces of evil for the good of his/her kingdom.";
     }
 
 }

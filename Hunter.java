@@ -43,19 +43,16 @@ public class Hunter extends Character {
     }
 
     public void specialize() {
-	super.specialize();
 	super.defense = 20;
 	super.attack = 0.7;
     }
 
     public void normalize() { // resets all attributes
-	super.normalize();
 	super.defense = 35;
 	super.attack = 0.5;
     }
 
-    public static String about() {
-	String hunter   = "Hunter: With bow and quiver, they elegantly strike those who cross their path.";
-	return hunter;
+    public String about() {
+        return "Hunter: With bow and quiver, they elegantly strike those who cross their path.";
     }
 }

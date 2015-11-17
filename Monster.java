@@ -34,9 +34,18 @@ public class Monster extends Character {
         return super.attack(guy);
     }
 
-    public static String about() {
-	String monster  = "Monster: Among the evils you must fight are monsters, who seek to destroy the kingdom's harmony.";
-	return monster;
+     public void specialize() {
+	 super.defense = 20;
+	 super.attack = 1;
+    }
+
+    public void normalize() { // resets all attributes
+	super.defense = 20;
+	super.attack = 1;
+    }
+
+    public String about() {
+        return "Monster: Among the evils you must fight are monsters, who seek to destroy the kingdom's harmony.";
     }
 
 }
