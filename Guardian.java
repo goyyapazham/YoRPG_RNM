@@ -44,13 +44,13 @@ public class Guardian extends Character {
     }
 
     public void specialize() {
-	super.defense = 100;
-	super.attack = 0.1;
+	defense = 100;
+	attack = 0.1;
     }
 
     public void normalize() { // resets all attributes
-	super.defense = 80;
-	super.attack = 0.2;
+	defense = 80;
+	attack = 0.2;
     }
 
     public String about() {

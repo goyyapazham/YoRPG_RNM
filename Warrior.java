@@ -16,7 +16,7 @@ public class Warrior extends Character {
     
     public Warrior( String name ) {
 	this();
-	super.name = name;
+	this.name = name;
     }
 
     public boolean isAlive() { // tests for life
@@ -44,13 +44,13 @@ public class Warrior extends Character {
     }
 
     public void specialize() {
-        super.defense = 20;
-	super.attack = .75;
+        defense = 20;
+	attack = .75;
     }
 
     public void normalize() { // resets all attributes
-        super.defense = 40;
-	super.attack = .4;
+        defense = 40;
+	attack = .4;
     }
 
     public String about() {

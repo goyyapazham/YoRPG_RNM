@@ -35,13 +35,13 @@ public class Monster extends Character {
     }
 
      public void specialize() {
-	 super.defense = 20;
-	 super.attack = 1;
+	 defense = 20;
+	 attack = 1;
     }
 
     public void normalize() { // resets all attributes
-	super.defense = 20;
-	super.attack = 1;
+	defense = 20;
+	attack = 1;
     }
 
     public String about() {

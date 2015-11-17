@@ -43,13 +43,13 @@ public class Mage extends Character {
     }
 
     public void specialize() {
-	super.defense = 15;
-	super.attack = 0.6;
+	defense = 15;
+	attack = 0.6;
     }
 
     public void normalize() { // resets all attributes
-	super.defense = 30;
-	super.attack = 0.3;
+	defense = 30;
+	attack = 0.3;
     }
 
     public String about() {

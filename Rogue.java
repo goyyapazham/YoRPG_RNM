@@ -43,13 +43,13 @@ public class Rogue extends Character {
     }
 
     public void specialize() {
-	super.defense = 20;
-	super.attack = 0.7;
+	defense = 20;
+	attack = 0.7;
     }
 
     public void normalize() { // resets all attributes
-	super.defense = 40;
-	super.attack = 0.5;
+	defense = 40;
+	attack = 0.5;
     }
 
     public String about() {
