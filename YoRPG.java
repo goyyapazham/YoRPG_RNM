@@ -92,18 +92,23 @@ public class YoRPG {
 	//instantiate the player's character
 	if ( job == 1 ) {
 	    pat = new Warrior ( name );
+	    System.out.println(pat.about());
 	}
 	else if ( job == 2 ) {
 	    pat = new Mage ( name );
+	    System.out.println(pat.about());
 	}
 	else if ( job == 3 ) {
 	    pat = new Rogue ( name );
+	    System.out.println(pat.about());
 	}
 	else if ( job == 4 ) {
 	    pat = new Guardian ( name );
+	    System.out.println(pat.about());
 	}
 	else if ( job == 5 ) {
 	    pat = new Hunter ( name );
+	    System.out.println(pat.about());
 	}
 
     }//end newGame()
@@ -140,39 +145,10 @@ public class YoRPG {
 		catch ( IOException e ) { }
 
 		if ( i == 2 ) {
-		    if ( job == 1 ) {
-		        pat.specialize();
-		    }
-		    else if ( job == 2 ) {
-			((Mage)pat).specialize();
-		    }
-		    else if ( job == 3 ) {
-		        ((Rogue)pat).specialize();
-		    }
-		    else if ( job == 4 ) {
-			((Guardian)pat).specialize();
-		    }
-		    else if ( job == 5 ) {
-			((Hunter)pat).specialize();
-		    }
-		}
+		    pat.specialize();
 		   
 		else {
-		    if ( job == 1 ) {
-			pat.normalize();
-		    }
-		    else if ( job == 2 ) {
-			((Mage) pat).normalize();
-		    }
-		    else if (job == 3) {
-			((Rogue) pat).normalize();
-		    }
-		    else if (job == 4) {
-			((Guardian) pat).normalize();
-		    }
-		    else {
-			((Hunter) pat).normalize();
-		    }
+		    pat.normalize;
 		}
 
 		d1 = pat.attack( smaug );
